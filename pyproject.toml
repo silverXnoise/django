@@ -1,0 +1,25 @@
+# mypy global options:
+
+[tool.mypy]
+python_version = "2.7"
+warn_return_any = true
+warn_unused_configs = true
+exclude = [
+    '^book\.'   # files within book submodule
+]
+# mypy per-module options:
+
+[[tool.mypy.overrides]]
+module = "mycode.foo.*"
+disallow_untyped_defs = true
+
+[[tool.mypy.overrides]]
+module = "mycode.bar"
+warn_return_any = false
+
+[[tool.mypy.overrides]]
+module = [
+    "somelibrary",
+    "some_other_library"
+]
+ignore_missing_imports = true
