@@ -1,0 +1,14 @@
+{
+    "recommendations": [
+        "thebarkman.vscode-djaneiro",
+        "garytyler.darcula-pycharm",
+        "mengsicode.vscode-django-boilerplate",
+        "shamanu4.django-intellisense",
+        "kevinrose.vsc-python-indent",
+        "almenon.arepl",
+        "njpwerner.autodocstring",
+        "sourcery.sourcery",
+        "ms-python.python",
+        "slightc.pip-manager"
+    ]
+}
