@@ -5,6 +5,10 @@
 		}
 	],
 	"settings": {
-		"files.autoSave": "onFocusChange"
+		"files.autoSave": "onFocusChange",
+		"cSpell.words": [
+			"pylint",
+			"runtimes"
+		]
 	}
 }
